@@ -315,8 +315,8 @@ def draw(lock, result_queue2):
     dark_img = pygame.transform.scale(dark_img, (80, 40))
     light_img = pygame.image.load('figs/light.png').convert_alpha()
     light_img = pygame.transform.scale(light_img, (80, 40))
-    icon_img = pygame.image.load('figs/icon.png').convert_alpha()
-    icon_img = pygame.transform.scale(icon_img, (520, 65))
+    # icon_img = pygame.image.load('figs/icon.png').convert_alpha()
+    # icon_img = pygame.transform.scale(icon_img, (520, 65))
 
     running = True
     while running:
@@ -395,10 +395,10 @@ def draw(lock, result_queue2):
             draw_histogram(screen, fe_hist, hist_x, hist_y, hist_width, hist_height, num_bins, c_font)
 
             # draw icon
-            icon_rect = icon_img.get_rect()
-            icon_rect.centerx = 960
-            icon_rect.bottom = 620
-            screen.blit(icon_img, icon_rect)
+            # icon_rect = icon_img.get_rect()
+            # icon_rect.centerx = 960
+            # icon_rect.bottom = 620
+            # screen.blit(icon_img, icon_rect)
 
             pygame.display.flip()
             print(clock.get_fps())
