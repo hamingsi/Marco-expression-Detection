@@ -1,5 +1,5 @@
 # OpenGraphAU Real-Time Video Emotion Classification and Action Unit Detection System
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ## Project Overview
 This project is a real-time video processing system based on OpenGraphAU, capable of detecting and analyzing human facial expressions, recognizing emotions, and highlighting relevant action units (AUs). The system utilizes OpenCV for video frame capture, MediaPipe for face detection and keypoint localization, and ONNX Runtime for emotion recognition and action unit detection using pre-trained models.
 ## Technology Stack
